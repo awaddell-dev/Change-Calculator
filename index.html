@@ -3,12 +3,97 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
     <title>Change Calculator</title>
   </head>
   <body>
-    <!-- Write your markup here -->
+    <main>
+      <header>
+        <h1>Change Calculator</h1>
+      </header>
+      <section class="top-grid">              
+        <div class="input-field">
+          <label for="amount-due">Amount due in USD:</label>
+          <input id="amount-due" type="text" placeholder="e.g. 5.99" inputmode="numeric"/>
+          <div class="big-box"></div>
+        </div>
 
-    <!-- Don't forget to add your <script> tag here -->
+        <div class="input-field">
+          <label for="amount-received">Amount received in USD:</label>
+          <input id="amount-received" type="text" placeholder="e.g. 5.99" inputmode="numeric"/>
+          <div class="big-box"></div>
+        </div>
+      </section>
 
+      <section class="button-row">
+        <button id="calculate-change" type="button" >Calculate change</button>
+        <p id="message" role="status"></p>
+      </section>  
+
+      <section id="results" class="hidden">
+        <div class="center-section">
+          <p id="output-label">Your change is:</p>
+          <label for="total-output">$</label>
+          <output class="output-box" id="total-output"></output>
+        </div>
+
+        <div class="money" id="bill20-block">
+          <img class="cash-img" src="images/bills.gif" alt="Image of a $20 bill">
+          <h2>20$ Bills</h2>
+          <p id="twenty-dollar-output"></p>
+        </div>
+
+        <div class="money" id="bill10-block">
+          <img class="cash-img" src="images/bills.gif" alt="Image of a $10 bill">
+          <h2>10$ Bills</h2>
+          <p id="ten-dollar-output"></p>
+        </div>
+
+        <div class="money" id="bill5-block">
+          <img class="cash-img" src="images/bills.gif" alt="Image of a $5 bill">
+          <h2>5$ Bills</h2>
+          <p id="five-dollar-output"></p>
+        </div>
+
+        <div class="money" id="bill2-block">
+          <img class="cash-img" src="images/bills.gif" alt="Image of a $2 bill">
+          <h2>2$ Bills</h2>
+          <p id="two-dollar-output"></p>
+        </div>
+      
+        <div class="money" id="bill1-block">
+          <img class="cash-img" src="images/bills.gif" alt="Image of a 1$ bill">
+          <h2>$1 Bills</h2>
+          <p id="one-dollar-output"></p>
+          <p id="dollars-output" class="sr-only" aria-hidden="true"></p>
+        </div>
+
+        <div class="money" id="quarter-block">
+          <img class="coins-img" src="images/coins.gif" alt="Image of a quarter">
+          <h2>Quarters</h2>
+          <p id="quarters-output"></p>
+        </div>
+
+        <div class="money" id="dime-block">
+          <img class="coins-img" src="images/coins.gif" alt="Image of a dime">
+          <h2>Dimes</h2>
+          <p id="dimes-output"></p>
+        </div>
+
+        <div class="money" id="nickel-block">
+          <img class="coins-img" src="images/nickel.gif" alt="Image of a nickel">
+          <h2>Nickels</h2>
+          <p id="nickels-output"></p>
+        </div>
+
+        <div class="money" id="penny-block">
+          <img class="penny-img" src="images/penny.gif" alt="Image of a penny">
+          <h2>Pennies</h2>
+          <p id="pennies-output"></p>
+        </div>
+      </section>
+    </main>  
+    <script src="main.js"></script>
   </body>
 </html>
