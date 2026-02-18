@@ -1,6 +1,6 @@
 # Change Calculator
 
-A client-side web application that calculates monetary change and displays an animated breakdown of bills and coins. Built as part of the CCC Web 102 curriculum, this project demonstrates structured front-end development using vanilla web technologies.
+A responsive client-side application that computes monetary change and renders an animated, itemized breakdown of bills and coins. Developed as part of the CCC Web 102 curriculum, this project emphasizes structured JavaScript design, defensive input validation, dynamic DOM manipulation, and responsive UI implementation using vanilla web technologies.
 
 ---
 
@@ -36,6 +36,19 @@ https://awaddell-dev.github.io/Change-Calculator/
 
 ---
 
+## Architecture Overview
+
+The application follows a structured separation of concerns:
+
+* **Calculation Logic** – Determines change and denomination breakdown
+* **Rendering Logic** – Updates the DOM based on computed results
+* **Event Handling** – Listens for user interaction and validates input
+* **UI Utilities** – Manages conditional visibility and animations
+
+All logic is implemented using vanilla JavaScript with clear function boundaries.
+
+---
+
 ## Screenshots
 
 ### Initial Interface
@@ -64,9 +77,30 @@ Displays validation messaging when input is invalid or amount received is less t
 
 ---
 
+## Accessibility & Testing Considerations
+
+* Screen-reader-only elements are used to support automated test validation
+* Defensive checks prevent invalid numeric states
+* Animations gracefully bypass automated test environments
+* Semantic HTML structure improves readability and accessibility
+
+The goal was to balance enhanced UI experience with predictable test behavior.
+
+---
+
 ## Installation & Usage
 
 Clone the repository:
 
 ```bash
 git clone git@github.com:awaddell-dev/Change-Calculator.git
+```
+---
+
+## Author
+
+Alex Waddell
+Software Development Student (CIAT)
+Software Development Intern (Creating Coding Careers)
+https://github.com/awaddell-dev
+
