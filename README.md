@@ -53,13 +53,13 @@ All logic is implemented using vanilla JavaScript with clear function boundaries
 
 ### Initial Interface
 
-![Initial Interface](images/ChangeCalc_main.png)
+![Initial Interface](screenshots/ChangeCalc_main.png)
 
 ---
 
 ### Valid Input Entered
 
-![Valid Input](images/ChangeCalc_input.png)
+![Valid Input](screesnhots/ChangeCalc_input.png)
 
 ---
 
@@ -67,13 +67,13 @@ All logic is implemented using vanilla JavaScript with clear function boundaries
 
 Displays validation messaging when input is invalid or amount received is less than amount due.
 
-![Invalid Input](images/ChangeCalc_invalid.png)
+![Invalid Input](screenshots/ChangeCalc_invalid.png)
 
 ---
 
 ### Example Change Breakdown
 
-![Change Breakdown](images/ChangeCalc_output.png)
+![Change Breakdown](screenshots/ChangeCalc_output.png)
 
 ---
 
