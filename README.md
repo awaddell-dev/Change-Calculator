@@ -59,7 +59,7 @@ All logic is implemented using vanilla JavaScript with clear function boundaries
 
 ### Valid Input Entered
 
-![Valid Input](screesnhots/ChangeCalc_input.png)
+![Valid Input](screenshots/ChangeCalc_input.png)
 
 ---
 
@@ -99,8 +99,9 @@ git clone git@github.com:awaddell-dev/Change-Calculator.git
 
 ## Author
 
-Alex Waddell
-Software Development Student (CIAT)
-Software Development Intern (Creating Coding Careers)
-https://github.com/awaddell-dev
+* Alex Waddell
+* Software Development Student: California Institute of Applied Technology
+* Software Development Intern: Creating Coding Careers
+* Github: https://github.com/awaddell-dev
+* LinkedIn: 
 
