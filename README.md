@@ -1,6 +1,6 @@
 # Change Calculator
 
-A responsive client-side application that computes monetary change and renders an animated, itemized breakdown of bills and coins. Developed as part of the CCC Web 102 curriculum, this project emphasizes structured JavaScript design, defensive input validation, dynamic DOM manipulation, and responsive UI implementation using vanilla web technologies.
+A responsive client-side application that computes monetary change and renders an animated, itemized breakdown of bills and coins. This project emphasizes structured JavaScript design, defensive input validation, dynamic DOM manipulation, and responsive UI implementation using vanilla web technologies.
 
 ---
 
